@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #171717;
+}
+h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 800;
+}
+a{
+    color: #3F3FC6;
+    text-decoration: underline;
+    padding: 0 4px;
+}
+p, li{
+    font-size: 16px;
+    line-height: 28px;
+}
+b{
+    font-weight: 700;
+}
+header{
+    border-bottom: 1px solid #171717;
+}
+ul li::marker{
+    color: #3F3FC6;
+}
+header .container, footer .container{
+    width: 1280px;
+    margin: 0 32px;
+}
+header .container .content, footer .container .content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+.logo{
+    padding-right:20px;
+    font-weight: 600;
+}
+header nav a{
+    color: #3F3FC6;
+    text-decoration: underline;
+    padding: 0 4px;
+}
+main{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+main .content{
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.privacy-item, .term-item{
+    margin-top: 48px;
+}
+.privacy-item h2, .term-item h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.privacy-item ul li, .term-item ul li{
+    margin-bottom: 6px;
+}
+
+footer{
+    border-top: 1px solid #171717;
+}
